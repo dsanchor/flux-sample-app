@@ -17,7 +17,7 @@ spec:
         app: bgd
     spec:
       containers:
-      - image: quay.io/redhatworkshops/bgd:latest
+      - image: docker.io/sancheski/bgd:latest
         name: bgd
         env:
         - name: COLOR
